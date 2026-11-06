@@ -1,0 +1,17 @@
+{
+  "dependencies": ["."],
+  "python_version": "3.13",
+  "graphs": {
+    "agente_basico": "./taller/studio.py:agente_basico",
+    "rag": "./taller/studio.py:rag",
+    "agente_que_aprende": "./taller/studio.py:agente_que_aprende"
+  },
+  "env": ".env",
+  "store": {
+    "index": {
+      "embed": "./taller/studio.py:embed",
+      "dims": 768,
+      "fields": ["texto"]
+    }
+  }
+}

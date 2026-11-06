@@ -1,0 +1,22 @@
+.env
+.venv/
+.data/
+.cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.claude/
+.langgraph_api/
+.ruff_cache/
+.pytest_cache/
+
+# Material del ponente (presentación, guion, guía): no se publica
+ponente/
+
+# Copias accidentales de los notebooks
+notebooks-Copy*/
+
+# Claude Code
+CLAUDE.md
+.mcp.json
